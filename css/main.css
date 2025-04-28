@@ -51,6 +51,13 @@ a {
     letter-spacing: 0.5px;
     cursor: pointer;
 }
+/* hero background */
+.hero {
+    background-image: url("../images/hero-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
 /* Header sections styles */
 .header{
     padding: 20px 0;
@@ -89,7 +96,7 @@ a {
 }
 /* home section style */
 .home {
-    padding: 80px 0;
+    padding: 112px 0;
 }
 .home__wrapper{
     display: flex;
@@ -110,13 +117,14 @@ a {
     line-height: 130%;
     color: #1e212c;
     letter-spacing: 1px;
+    margin: 40px 0 64px 0;
 }
 .home__btn2 {
     margin-right: 16px
 }
 /* stats section style */
 .stats{
-    padding: 48px;
+    padding: 112px 0;
 }
 .stats__wrapper{
     display: flex;
